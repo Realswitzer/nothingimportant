@@ -1,0 +1,267 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.36.32535.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/alec/source/repos/gassyhook2/src/core/netvars.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "d093272cfc4c78f253028b20087c249e13c01db52d8da1c8cc872326a1545533"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alec/source/repos/gassyhook2/src/core/netvars.h"
+          },
+          "hashes": {
+            "sha-256": "e28a89775bce013754eca576d319c0899f44d6c9f123485fe35d1564f63a0d48"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alec/source/repos/gassyhook2/src/util/hash.h"
+          },
+          "hashes": {
+            "sha-256": "8b41872cf271c7458dc52acad35452390c4b221921ea2dfc94c79c92aa09ddd5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alec/source/repos/gassyhook2/src/core/interfaces.h"
+          },
+          "hashes": {
+            "sha-256": "52475ff2d9c7fe88ace52b20330d96db2c4ad5e920d2f2efdbdf8f5eaf97a3a0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alec/source/repos/gassyhook2/src/core/globals.h"
+          },
+          "hashes": {
+            "sha-256": "038ad98a9938ff7daea76781637d5cddbd9f9b7bbffb3d239dabc56757242de2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alec/source/repos/gassyhook2/src/valve/ibaseclientdll.h"
+          },
+          "hashes": {
+            "sha-256": "62619761a931d20d853509af4b9891360a1d30ded61a5219e243c7dd2f401ede"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alec/source/repos/gassyhook2/src/util/memory.h"
+          },
+          "hashes": {
+            "sha-256": "9d568c261793b754b971594eec17abe40c75c9796f0fb7bf76d0f78d6cc77570"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alec/source/repos/gassyhook2/src/valve/cclientclass.h"
+          },
+          "hashes": {
+            "sha-256": "1977071caed1eebb5e13ea5afee79f950972366a429db3513c8e799f58fc68c8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alec/source/repos/gassyhook2/src/valve/crecvtable.h"
+          },
+          "hashes": {
+            "sha-256": "30a3c7e3362583e0518c3b402807c179aff30f518748de6e2984d38cec1cad08"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alec/source/repos/gassyhook2/src/valve/icliententitylist.h"
+          },
+          "hashes": {
+            "sha-256": "0f3794c83b3012dfadca29f02d199cdc6baa93d33d12c343f38e4a322e0d9806"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alec/source/repos/gassyhook2/src/valve/centity.h"
+          },
+          "hashes": {
+            "sha-256": "20226dc19a0d237a93d317f9d489447eedb916af62691708d8201596a668c7b7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alec/source/repos/gassyhook2/src/valve/cvector.h"
+          },
+          "hashes": {
+            "sha-256": "731a345c2c05a283daef8bf8fa77e4335cca118fbda1ac3ce99bbe74a42874d6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alec/source/repos/gassyhook2/src/valve/cmatrix.h"
+          },
+          "hashes": {
+            "sha-256": "cac1a1cc71919400eb438f027f43841571c53a6e27d58ae77fca8e281898380e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alec/source/repos/gassyhook2/src/valve/iclientmodeshared.h"
+          },
+          "hashes": {
+            "sha-256": "25a4e4e302b704e50167bf72399ffaaa3fc7e6b68c40d56f4a7f93e3fd8efd39"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alec/source/repos/gassyhook2/src/valve/cusercmd.h"
+          },
+          "hashes": {
+            "sha-256": "1d0ea1f1808d97a6faa720000c9258bd28088f4ed7995a519a321b4b857508df"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alec/source/repos/gassyhook2/src/valve/ienginetrace.h"
+          },
+          "hashes": {
+            "sha-256": "e0267a916ed522e61bc3cd66500b05281657b6d0f1dbc424c8f33c8eb9723707"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alec/source/repos/gassyhook2/src/valve/ienginevgui.h"
+          },
+          "hashes": {
+            "sha-256": "63b2f236a31c5da652a48af980556477db429a776cea072871a03090f282b033"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alec/source/repos/gassyhook2/src/valve/iglobalvars.h"
+          },
+          "hashes": {
+            "sha-256": "5a1d4a36c8b866624d26a15c3999d50b2a99daa0c7e8db819cb9e9f5a4bd8615"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alec/source/repos/gassyhook2/src/valve/iglowmanager.h"
+          },
+          "hashes": {
+            "sha-256": "0e52ef1416e5667a79bc0608af8e7d257cc885cbfe6484e3f85a6a8b923143ee"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alec/source/repos/gassyhook2/src/valve/cutlvector.h"
+          },
+          "hashes": {
+            "sha-256": "9bb3bf0ad4d88ee4037fd77c0a8b99adb1b2d4a25f8ae4a080a50cd83b05f181"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alec/source/repos/gassyhook2/src/valve/imaterialsystem.h"
+          },
+          "hashes": {
+            "sha-256": "eacab092facf00914c24b70dcb2375b7417425c85d51c1a1c5c511dd9ed2a7d7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alec/source/repos/gassyhook2/src/valve/ckeyvalues.h"
+          },
+          "hashes": {
+            "sha-256": "50e8f5f4383609ea95570c6c8ae76362f896e940e46a2ce02ed074c55d6f61f9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alec/source/repos/gassyhook2/src/valve/istudiorender.h"
+          },
+          "hashes": {
+            "sha-256": "60e282b349852b2b6deb8336dafa1a4a2fb75f07e0f22a076e820fe60a09b8bd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alec/source/repos/gassyhook2/src/valve/isurface.h"
+          },
+          "hashes": {
+            "sha-256": "b6e1602ef717a0edff528ca782407c60bf887f45f840e820de839f40ab2f87fb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alec/source/repos/gassyhook2/src/valve/ivdebugoverlay.h"
+          },
+          "hashes": {
+            "sha-256": "91196b96a8e292a336c892cf509f1ef24d2ff9eeddfa6e83f0f98b526e4829f6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alec/source/repos/gassyhook2/src/valve/ccolor.h"
+          },
+          "hashes": {
+            "sha-256": "3742d61dc9a0157fb14d9a79292363058713ee30fba4f16afdfa06f2031e1504"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alec/source/repos/gassyhook2/src/valve/ivengineclient.h"
+          },
+          "hashes": {
+            "sha-256": "219b3350b94c42904abfbdd7df23d3d0c17a3673a2fe055c16b2f52b80a4cc7c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alec/source/repos/gassyhook2/src/valve/ispatialquery.h"
+          },
+          "hashes": {
+            "sha-256": "b7384fcd5270ed65a9799edf9c9efa30a3613c35565b36dcf2446f0a12e98253"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alec/source/repos/gassyhook2/src/valve/ivmodelinfo.h"
+          },
+          "hashes": {
+            "sha-256": "35b3057e54bde6089ccc0381e63cf3f3b8e71add095bee7470c27bc60f9a0dad"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alec/source/repos/gassyhook2/src/valve/ivpanel.h"
+          },
+          "hashes": {
+            "sha-256": "c17ae97187d2689200eff458c3c530773ddb20c29af302ef1ce8be4191a53d89"
+          }
+        }
+      ]
+    }
+  ]
+}
